@@ -1,0 +1,133 @@
+body{
+font-size: 24px;
+background-color: #CDEDF6;
+color: #FD151B;
+display: flex;
+justify-content: center;
+
+}
+
+.main,header,.container,.items,.result{
+display:flex;
+}
+
+.heading{
+display: flex;
+flex-direction: column;
+align-items: center;
+/*color: rgb(4, 42, 43);*/
+font-family: "Marhey";}
+
+.main{
+
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.container{
+justify-content: center;
+margin-bottom: 0px;
+}
+
+.items{
+margin: 1rem 2rem;
+flex-direction: column;
+align-items: center;
+
+}
+
+img{
+margin-bottom: 1rem;
+width: 200px;
+height: 200px;
+border-radius: 20%;
+}
+
+.text{
+font-size: 2rem;
+color: #FD151B;
+
+font-family: "Wallpoet ";
+}
+
+.result{
+font-family: "Marhey";
+margin-top: 0px;
+flex-direction: column;
+align-items: center;
+/*color: #fa029b;*/
+}
+
+.showing{
+display:flex;
+gap: 3rem;
+text-align: center;
+font-size: 1.5rem;
+
+}
+.player,.computer{
+display: flex;
+width: 200px;
+height: 70px;
+border:rgba(94, 177, 191,80%) solid 10px;
+border-radius: 10%;
+justify-content: center;
+align-items: center;
+margin-top: 2px;
+}
+
+.result  h4{
+font-size: 2rem;
+margin-bottom:0px ;}
+
+.show{
+margin-bottom: 10px;}
+.owner{
+margin-top: 15px;}
+
+img:hover {
+width: 220px;
+height: 220px;
+border: #000 solid 0px;
+box-shadow:5px 5px 5px 5px rgba(149, 145, 145,50%) ;
+}
+
+
+p,h6{
+font-size: 1.5rem;
+font-family: "Marhey";
+}
+
+.container h1,h2,h3{
+margin: 10px auto;
+}
+
+
+.end{
+display: flex;
+margin-top: 25%;
+flex-direction: column;
+justify-content: center;
+align-items:center ;
+box-shadow:2.5px 2px 10px 10px rgba(149, 145, 145,50%);
+border: rgba(149, 145, 145,50%) 5px solid;
+height: 10em;
+width: 50%;
+padding: 2%  ;
+padding-bottom: 4%;
+}
+button{
+width: 80px;
+height: 50px;
+border-radius: 12%;
+background-color: #FD151B;
+color: #fff;
+font-size: 1.5rem;
+padding: 2%;
+}
+.dissapper{
+
+display: none;}
